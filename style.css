@@ -1,0 +1,91 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&family=Fredoka+One&display=swap'); 
+
+
+html {
+
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+background: #001135;
+
+}
+
+
+
+.top_container_join {
+  text-align:center;
+}
+
+
+.top_container_join {
+    display: inline-block;
+    position: sticky;
+    background-color: #ff8914 ;
+    width: 10%;
+    min-width: 100px;
+    height: 22px;
+    color: white
+    text-align: center;
+    padding: 9px 15px 4px 15px;
+    margin: 0px 0 0 15px;
+    text-decoration: none;
+    float: right;
+  }
+
+  b {
+    font-weight: bold;
+}
+
+#top_container a, 
+#top_container a:link {
+  color: #FFF;
+}
+
+
+
+.header {
+   padding: 15px 20 px
+}
+
+
+
+
+
+.header_box {
+  display: flex;
+  flex-direction: row;
+}
+
+top_container{
+  flex-grow: 1
+
+}
+
+.header_left{
+  flex-grow: 1
+
+}
+
+.header_right{
+  flex-grow: 1
+
+}
+
+
+
+@media {
+  
+  top_container {
+  min-width: 100%;
+}
+
+.header_left {
+  min-width: 70%;
+}
+
+.header_right{
+  min-width: 30%;
+}
+}
